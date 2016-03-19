@@ -26,7 +26,6 @@ export default class Program {
     for (let f of this._getTraceLoggerFormatters()) {
       this.traceLogger.formatters.append(f);
     }
-    this._setupTraceLoggerFormatters();
   }
 
   _getTraceLoggerFormatters() {
